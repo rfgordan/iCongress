@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10FEE1B1A1E9425008F75FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE1A1A1E9425008F75FF /* main.m */; };
+		D10FEE1E1A1E9425008F75FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE1D1A1E9425008F75FF /* AppDelegate.m */; };
+		D10FEE211A1E9425008F75FF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE201A1E9425008F75FF /* MasterViewController.m */; };
+		D10FEE241A1E9425008F75FF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE231A1E9425008F75FF /* DetailViewController.m */; };
+		D10FEE271A1E9425008F75FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10FEE251A1E9425008F75FF /* Main.storyboard */; };
+		D10FEE291A1E9425008F75FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10FEE281A1E9425008F75FF /* Images.xcassets */; };
+		D10FEE2C1A1E9425008F75FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */; };
+		D10FEE381A1E9425008F75FF /* iCongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE371A1E9425008F75FF /* iCongressTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D10FEE321A1E9425008F75FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10FEE0D1A1E9424008F75FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10FEE141A1E9425008F75FF;
+			remoteInfo = iCongress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D10FEE151A1E9425008F75FF /* iCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FEE191A1E9425008F75FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10FEE1A1A1E9425008F75FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D10FEE1C1A1E9425008F75FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D10FEE1D1A1E9425008F75FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D10FEE1F1A1E9425008F75FF /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D10FEE201A1E9425008F75FF /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D10FEE221A1E9425008F75FF /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D10FEE231A1E9425008F75FF /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D10FEE261A1E9425008F75FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D10FEE281A1E9425008F75FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D10FEE2B1A1E9425008F75FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D10FEE311A1E9425008F75FF /* iCongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10FEE361A1E9425008F75FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10FEE371A1E9425008F75FF /* iCongressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCongressTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10FEE121A1E9425008F75FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FEE2E1A1E9425008F75FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10FEE0C1A1E9424008F75FF = {
+			isa = PBXGroup;
+			children = (
+				D10FEE171A1E9425008F75FF /* iCongress */,
+				D10FEE341A1E9425008F75FF /* iCongressTests */,
+				D10FEE161A1E9425008F75FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10FEE161A1E9425008F75FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10FEE151A1E9425008F75FF /* iCongress.app */,
+				D10FEE311A1E9425008F75FF /* iCongressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10FEE171A1E9425008F75FF /* iCongress */ = {
+			isa = PBXGroup;
+			children = (
+				D10FEE1C1A1E9425008F75FF /* AppDelegate.h */,
+				D10FEE1D1A1E9425008F75FF /* AppDelegate.m */,
+				D10FEE1F1A1E9425008F75FF /* MasterViewController.h */,
+				D10FEE201A1E9425008F75FF /* MasterViewController.m */,
+				D10FEE221A1E9425008F75FF /* DetailViewController.h */,
+				D10FEE231A1E9425008F75FF /* DetailViewController.m */,
+				D10FEE251A1E9425008F75FF /* Main.storyboard */,
+				D10FEE281A1E9425008F75FF /* Images.xcassets */,
+				D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */,
+				D10FEE181A1E9425008F75FF /* Supporting Files */,
+			);
+			path = iCongress;
+			sourceTree = "<group>";
+		};
+		D10FEE181A1E9425008F75FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10FEE191A1E9425008F75FF /* Info.plist */,
+				D10FEE1A1A1E9425008F75FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D10FEE341A1E9425008F75FF /* iCongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				D10FEE371A1E9425008F75FF /* iCongressTests.m */,
+				D10FEE351A1E9425008F75FF /* Supporting Files */,
+			);
+			path = iCongressTests;
+			sourceTree = "<group>";
+		};
+		D10FEE351A1E9425008F75FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D10FEE361A1E9425008F75FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10FEE141A1E9425008F75FF /* iCongress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10FEE3B1A1E9425008F75FF /* Build configuration list for PBXNativeTarget "iCongress" */;
+			buildPhases = (
+				D10FEE111A1E9425008F75FF /* Sources */,
+				D10FEE121A1E9425008F75FF /* Frameworks */,
+				D10FEE131A1E9425008F75FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCongress;
+			productName = iCongress;
+			productReference = D10FEE151A1E9425008F75FF /* iCongress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D10FEE301A1E9425008F75FF /* iCongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10FEE3E1A1E9425008F75FF /* Build configuration list for PBXNativeTarget "iCongressTests" */;
+			buildPhases = (
+				D10FEE2D1A1E9425008F75FF /* Sources */,
+				D10FEE2E1A1E9425008F75FF /* Frameworks */,
+				D10FEE2F1A1E9425008F75FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10FEE331A1E9425008F75FF /* PBXTargetDependency */,
+			);
+			name = iCongressTests;
+			productName = iCongressTests;
+			productReference = D10FEE311A1E9425008F75FF /* iCongressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10FEE0D1A1E9424008F75FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Holworthy17;
+				TargetAttributes = {
+					D10FEE141A1E9425008F75FF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D10FEE301A1E9425008F75FF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D10FEE141A1E9425008F75FF;
+					};
+				};
+			};
+			buildConfigurationList = D10FEE101A1E9424008F75FF /* Build configuration list for PBXProject "iCongress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10FEE0C1A1E9424008F75FF;
+			productRefGroup = D10FEE161A1E9425008F75FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10FEE141A1E9425008F75FF /* iCongress */,
+				D10FEE301A1E9425008F75FF /* iCongressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10FEE131A1E9425008F75FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FEE271A1E9425008F75FF /* Main.storyboard in Resources */,
+				D10FEE2C1A1E9425008F75FF /* LaunchScreen.xib in Resources */,
+				D10FEE291A1E9425008F75FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FEE2F1A1E9425008F75FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10FEE111A1E9425008F75FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FEE1E1A1E9425008F75FF /* AppDelegate.m in Sources */,
+				D10FEE211A1E9425008F75FF /* MasterViewController.m in Sources */,
+				D10FEE1B1A1E9425008F75FF /* main.m in Sources */,
+				D10FEE241A1E9425008F75FF /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10FEE2D1A1E9425008F75FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FEE381A1E9425008F75FF /* iCongressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10FEE331A1E9425008F75FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10FEE141A1E9425008F75FF /* iCongress */;
+			targetProxy = D10FEE321A1E9425008F75FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D10FEE251A1E9425008F75FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10FEE261A1E9425008F75FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D10FEE2B1A1E9425008F75FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D10FEE391A1E9425008F75FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D10FEE3A1A1E9425008F75FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D10FEE3C1A1E9425008F75FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D10FEE3D1A1E9425008F75FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D10FEE3F1A1E9425008F75FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCongress.app/iCongress";
+			};
+			name = Debug;
+		};
+		D10FEE401A1E9425008F75FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCongress.app/iCongress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10FEE101A1E9424008F75FF /* Build configuration list for PBXProject "iCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FEE391A1E9425008F75FF /* Debug */,
+				D10FEE3A1A1E9425008F75FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10FEE3B1A1E9425008F75FF /* Build configuration list for PBXNativeTarget "iCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FEE3C1A1E9425008F75FF /* Debug */,
+				D10FEE3D1A1E9425008F75FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D10FEE3E1A1E9425008F75FF /* Build configuration list for PBXNativeTarget "iCongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10FEE3F1A1E9425008F75FF /* Debug */,
+				D10FEE401A1E9425008F75FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10FEE0D1A1E9424008F75FF /* Project object */;
+}
