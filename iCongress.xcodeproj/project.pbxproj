@@ -15,6 +15,7 @@
 		D10FEE291A1E9425008F75FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10FEE281A1E9425008F75FF /* Images.xcassets */; };
 		D10FEE2C1A1E9425008F75FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */; };
 		D10FEE381A1E9425008F75FF /* iCongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE371A1E9425008F75FF /* iCongressTests.m */; };
+		D10FEE451A1E9C7C008F75FF /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE441A1E9C7C008F75FF /* FirstView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		D10FEE311A1E9425008F75FF /* iCongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10FEE361A1E9425008F75FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10FEE371A1E9425008F75FF /* iCongressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCongressTests.m; sourceTree = "<group>"; };
+		D10FEE431A1E9C7C008F75FF /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstView.h; path = ../FirstView.h; sourceTree = "<group>"; };
+		D10FEE441A1E9C7C008F75FF /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstView.m; path = ../FirstView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				D10FEE201A1E9425008F75FF /* MasterViewController.m */,
 				D10FEE221A1E9425008F75FF /* DetailViewController.h */,
 				D10FEE231A1E9425008F75FF /* DetailViewController.m */,
+				D10FEE431A1E9C7C008F75FF /* FirstView.h */,
+				D10FEE441A1E9C7C008F75FF /* FirstView.m */,
 				D10FEE251A1E9425008F75FF /* Main.storyboard */,
 				D10FEE281A1E9425008F75FF /* Images.xcassets */,
 				D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */,
@@ -226,6 +231,7 @@
 			files = (
 				D10FEE1E1A1E9425008F75FF /* AppDelegate.m in Sources */,
 				D10FEE211A1E9425008F75FF /* MasterViewController.m in Sources */,
+				D10FEE451A1E9C7C008F75FF /* FirstView.m in Sources */,
 				D10FEE1B1A1E9425008F75FF /* main.m in Sources */,
 				D10FEE241A1E9425008F75FF /* DetailViewController.m in Sources */,
 			);
