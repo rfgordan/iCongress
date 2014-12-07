@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 @protocol BillCellDelegate <NSObject>
-- (void)buttonOneActionForItemText:(NSString *)itemText;
-- (void)buttonTwoActionForItemText:(NSString *)itemText;
+- (void)buttonOneActionForItemText:(NSString *)itemText :(UITableViewCell*) cell;
+- (void)buttonTwoActionForItemText:(NSString *)itemText :(UITableViewCell*) cell;
 - (void)cellDidOpen:(UITableViewCell *)cell;
 - (void)cellDidClose:(UITableViewCell *)cell;
 @end

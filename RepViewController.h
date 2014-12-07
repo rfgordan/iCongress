@@ -17,5 +17,6 @@
 @property (nonatomic, weak) IBOutlet UIButton *button2;
 @property (nonatomic, weak) IBOutlet UIView *myContentView;
 @property (nonatomic, weak) IBOutlet UILabel *myTextLabel;
+@property (nonatomic) UIRefreshControl *refreshControl;
 -(IBAction) share;
 @end

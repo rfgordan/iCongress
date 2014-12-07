@@ -10,4 +10,8 @@
 
 @implementation BillViewController
 
+-(void)viewDidLoad
+{
+    
+}
 @end

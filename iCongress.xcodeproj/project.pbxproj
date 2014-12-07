@@ -10,6 +10,7 @@
 		D107A0D91A2FEB6000472F9A /* RepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A0D81A2FEB6000472F9A /* RepViewController.m */; };
 		D107A1121A2FF7F700472F9A /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A1111A2FF7F700472F9A /* HomeTabViewController.m */; };
 		D107A1151A2FF95200472F9A /* BillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A1141A2FF95200472F9A /* BillCell.m */; };
+		D109E73F1A343BB900708504 /* Justice-.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D109E73E1A343BB900708504 /* Justice-.jpg */; };
 		D10FEE1B1A1E9425008F75FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE1A1A1E9425008F75FF /* main.m */; };
 		D10FEE1E1A1E9425008F75FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE1D1A1E9425008F75FF /* AppDelegate.m */; };
 		D10FEE211A1E9425008F75FF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE201A1E9425008F75FF /* MasterViewController.m */; };
@@ -50,6 +51,7 @@
 		D107A1111A2FF7F700472F9A /* HomeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
 		D107A1131A2FF95200472F9A /* BillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillCell.h; sourceTree = "<group>"; };
 		D107A1141A2FF95200472F9A /* BillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillCell.m; sourceTree = "<group>"; };
+		D109E73E1A343BB900708504 /* Justice-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Justice-.jpg"; sourceTree = "<group>"; };
 		D10FEE151A1E9425008F75FF /* iCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10FEE191A1E9425008F75FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10FEE1A1A1E9425008F75FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				D1EBE0D91A31669700F38229 /* frank-underwood.jpg */,
+				D109E73E1A343BB900708504 /* Justice-.jpg */,
 				D1F20A0A1A3264DD00A0C2D3 /* capitol.jpg */,
 			);
 			name = ASSETS;
@@ -325,6 +328,7 @@
 				D1F20A0B1A3264DD00A0C2D3 /* capitol.jpg in Resources */,
 				D1EBE0DA1A31669700F38229 /* frank-underwood.jpg in Resources */,
 				D10FEE271A1E9425008F75FF /* Main.storyboard in Resources */,
+				D109E73F1A343BB900708504 /* Justice-.jpg in Resources */,
 				D10FEE2C1A1E9425008F75FF /* LaunchScreen.xib in Resources */,
 				D10FEE291A1E9425008F75FF /* Images.xcassets in Resources */,
 			);

@@ -8,6 +8,9 @@
 
 #import "RepViewController.h"
 #import "BillCell.h"
+#import "SHK.h"
+#import "SHKItem.h"
+#import "SHKActionSheet.h"
 
 @interface RepViewController () <BillCellDelegate>{
     
@@ -49,6 +52,10 @@
     
     repImage.frame = CGRectMake(0, 0, screenWidth/2, screenHeight/4);
     [self.tableView.tableHeaderView addSubview:repImage];
+    
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    [self.refreshControl addTarget:self action:@selector(updateTable) forControlEvents:UIControlEventValueChanged];
+    [self setRefreshControl:self.refreshControl];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -67,7 +74,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 30;
+    return [_objects count];
 }
 
 
@@ -154,28 +161,47 @@
     
 }*/
 #pragma mark - SwipeableCellDelegate
-- (void)buttonOneActionForItemText:(NSString *)itemText {
-    NSLog(@"In the delegate, Clicked button one for %@", itemText);
+- (void)buttonOneActionForItemText:(NSString *)itemText :(UITableViewCell*)cell {
+    NSLog(@"Bill Disapproved!", itemText);
+    //TODO: ping server with info
+    NSIndexPath* path = [self.tableView indexPathForCell:cell];
+    [_objects removeObjectAtIndex:path.row];
+    [self.tableView deleteRowsAtIndexPaths:@[path] withRowAnimation:UITableViewRowAnimationFade];
+    
+    //delete bill from list of bills
 }
 
-- (void)buttonTwoActionForItemText:(NSString *)itemText {
-    NSLog(@"In the delegate, Clicked button two for %@", itemText);
+- (void)buttonTwoActionForItemText:(NSString *)itemText :(UITableViewCell*)cell{
+    NSLog(@"Bill Approved!", itemText);
+    //TODO: ping server with info
+    
+    NSIndexPath* path = [self.tableView indexPathForCell:cell];
+    [_objects removeObjectAtIndex:path.row];
+    [self.tableView deleteRowsAtIndexPaths:@[path] withRowAnimation:UITableViewRowAnimationFade];
+
+    //delete bill from list of bills
+}
+-(void)updateTable:(id)sender
+{
+    NSLog(@"UPDATED");
+    //Deal with new bills
+    [((UIRefreshControl*)sender) endRefreshing];
 }
 
 #pragma mark - ShareKit stuff
 
-/*
 -(IBAction)share
 {
-    // Create the item to share (in this example, a url)
-    NSURL *url = [NSURL URLWithString:@"http://placeholderurl.com"];
-    SHKItem *item = [SHKItem URL:url title:@"Check out this bill!"];
-    
-    // Get the ShareKit action sheet
+    NSString *someText = @"This is a blurb of text I highlighted from a document.";
+    SHKItem *item = [SHKItem text:someText];
     SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+
+    // ShareKit detects top view controller (the one intended to present ShareKit UI) automatically,
+    // but sometimes it may not find one. To be safe, set it explicitly
+    [SHK setRootViewController:self];
     
     // Display the action sheet
     [actionSheet showFromToolbar:self.navigationController.toolbar];
 }
- */
+
 @end

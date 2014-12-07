@@ -14,6 +14,7 @@
 
 @property (nonatomic, weak) IBOutlet UIButton *button1;
 @property (nonatomic, weak) IBOutlet UIButton *button2;
+@property (nonatomic, weak) IBOutlet UIButton *button3;
 @property (nonatomic, weak) IBOutlet UIView *myContentView;
 @property (nonatomic, weak) IBOutlet UILabel *myTextLabel;
 @property (nonatomic, strong) UIPanGestureRecognizer *panRecognizer;
@@ -51,10 +52,11 @@ static CGFloat const kBounceValue = 20.0f;
 
 - (IBAction)buttonClicked:(id)sender
 {
+    UITableViewCell *cell = (UITableViewCell *)((UIButton*)sender).superview.superview;
     if (sender == self.button1) {
-        [self.delegate buttonOneActionForItemText:self.itemText];
+        [self.delegate buttonOneActionForItemText:self.itemText :cell];
     } else if (sender == self.button2) {
-        [self.delegate buttonTwoActionForItemText:self.itemText];
+        [self.delegate buttonTwoActionForItemText:self.itemText :cell];
     } else {
         NSLog(@"Clicked unknown button!");
     }
@@ -71,7 +73,7 @@ static CGFloat const kBounceValue = 20.0f;
 
 - (CGFloat)buttonTotalWidth
 {
-    return CGRectGetWidth(self.frame) - CGRectGetMinX(self.button2.frame);
+    return CGRectGetWidth(self.frame) - CGRectGetMinX(self.button3.frame);
 }
 
 - (void)panThisCell:(UIPanGestureRecognizer *)recognizer
@@ -175,7 +177,6 @@ static CGFloat const kBounceValue = 20.0f;
 {
     float duration = 0;
     if (animated) {
-        NSLog(@"Animated!");
         duration = 0.1;
     }
     
@@ -201,8 +202,8 @@ static CGFloat const kBounceValue = 20.0f;
     self.contentViewLeftConstraint.constant = kBounceValue;
     
     [self updateConstraintsIfNeeded:animated completion:^(BOOL finished) {
-        self.contentViewRightConstraint.constant = 0;
-        self.contentViewLeftConstraint.constant = 0;
+        self.contentViewRightConstraint.constant = -9;
+        self.contentViewLeftConstraint.constant = -9;
         
         [self updateConstraintsIfNeeded:animated completion:^(BOOL finished) {
             self.startingRightLayoutConstraintConstant = self.contentViewRightConstraint.constant;
