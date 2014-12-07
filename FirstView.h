@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface FirstView : UIViewController <UITextFieldDelegate>
-
+@property IBOutlet UIButton* findButton;
 
 -(void)textFieldDidEndEditing:(UITextField *)textField;
-
+-(IBAction)addressLookup:(id)sender;
 
 @end

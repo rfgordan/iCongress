@@ -15,6 +15,10 @@ NSString* city;
 NSString* state;
 NSString* zip;
 
+-(void)viewDidLoad
+{
+    self.navigationItem.title = @"iCongress";
+}
 -(void)textFieldDidEndEditing:(UITextField *)textField
 {
     //assign input for address
@@ -37,4 +41,19 @@ NSString* zip;
     }
     
 }
+-(IBAction)addressLookup:(id)sender
+{
+    NSString* combined = [NSString stringWithFormat:@"%@ @ %@ %@", address, city, state, zip];
+    CLGeocoder* geocoder = [[CLGeocoder alloc] init];
+    [geocoder geocodeAddressString:combined completionHandler:^(NSArray* placemarks, NSError* error){
+        
+        
+    }];
+    [self performSegueWithIdentifier:@"toReps" sender:self];
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    
+}
+
 @end

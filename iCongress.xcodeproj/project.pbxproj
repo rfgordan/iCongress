@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D107A0D91A2FEB6000472F9A /* RepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A0D81A2FEB6000472F9A /* RepViewController.m */; };
+		D107A1121A2FF7F700472F9A /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A1111A2FF7F700472F9A /* HomeTabViewController.m */; };
+		D107A1151A2FF95200472F9A /* BillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D107A1141A2FF95200472F9A /* BillCell.m */; };
 		D10FEE1B1A1E9425008F75FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE1A1A1E9425008F75FF /* main.m */; };
 		D10FEE1E1A1E9425008F75FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE1D1A1E9425008F75FF /* AppDelegate.m */; };
 		D10FEE211A1E9425008F75FF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE201A1E9425008F75FF /* MasterViewController.m */; };
@@ -16,6 +19,15 @@
 		D10FEE2C1A1E9425008F75FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */; };
 		D10FEE381A1E9425008F75FF /* iCongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE371A1E9425008F75FF /* iCongressTests.m */; };
 		D10FEE451A1E9C7C008F75FF /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = D10FEE441A1E9C7C008F75FF /* FirstView.m */; };
+		D1B6C83F1A33B49A0059D515 /* MySHKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B6C83E1A33B49A0059D515 /* MySHKConfigurator.m */; };
+		D1EBE0DA1A31669700F38229 /* frank-underwood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1EBE0D91A31669700F38229 /* frank-underwood.jpg */; };
+		D1F20A0B1A3264DD00A0C2D3 /* capitol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1F20A0A1A3264DD00A0C2D3 /* capitol.jpg */; };
+		D1F20AEE1A32AA1700A0C2D3 /* BillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F20AED1A32AA1700A0C2D3 /* BillViewController.m */; };
+		D1F20AF11A32AACF00A0C2D3 /* RepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F20AF01A32AACF00A0C2D3 /* RepDetailViewController.m */; };
+		D1F20AF31A32AC9F00A0C2D3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F20AF21A32AC9F00A0C2D3 /* SystemConfiguration.framework */; };
+		D1F20AF51A32ACAE00A0C2D3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F20AF41A32ACAE00A0C2D3 /* Security.framework */; };
+		D1F20AF71A32ACBD00A0C2D3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F20AF61A32ACBD00A0C2D3 /* MessageUI.framework */; };
+		E874F88183AC28E123E55590 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F022C4109CB4EA835C93C9CC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A477B9A55DC0470E290840 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		66899E4D12B048687306CBA4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D107A0D71A2FEB6000472F9A /* RepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepViewController.h; path = ../RepViewController.h; sourceTree = "<group>"; };
+		D107A0D81A2FEB6000472F9A /* RepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepViewController.m; path = ../RepViewController.m; sourceTree = "<group>"; };
+		D107A10F1A2FF5FA00472F9A /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		D107A1101A2FF7F700472F9A /* HomeTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabViewController.h; sourceTree = "<group>"; };
+		D107A1111A2FF7F700472F9A /* HomeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabViewController.m; sourceTree = "<group>"; };
+		D107A1131A2FF95200472F9A /* BillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillCell.h; sourceTree = "<group>"; };
+		D107A1141A2FF95200472F9A /* BillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillCell.m; sourceTree = "<group>"; };
 		D10FEE151A1E9425008F75FF /* iCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10FEE191A1E9425008F75FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10FEE1A1A1E9425008F75FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +67,18 @@
 		D10FEE371A1E9425008F75FF /* iCongressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCongressTests.m; sourceTree = "<group>"; };
 		D10FEE431A1E9C7C008F75FF /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstView.h; path = ../FirstView.h; sourceTree = "<group>"; };
 		D10FEE441A1E9C7C008F75FF /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstView.m; path = ../FirstView.m; sourceTree = "<group>"; };
+		D1B6C83D1A33B4990059D515 /* MySHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySHKConfigurator.h; sourceTree = "<group>"; };
+		D1B6C83E1A33B49A0059D515 /* MySHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySHKConfigurator.m; sourceTree = "<group>"; };
+		D1EBE0D91A31669700F38229 /* frank-underwood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "frank-underwood.jpg"; sourceTree = "<group>"; };
+		D1F20A0A1A3264DD00A0C2D3 /* capitol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = capitol.jpg; sourceTree = "<group>"; };
+		D1F20AEC1A32AA1700A0C2D3 /* BillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BillViewController.h; path = ../BillViewController.h; sourceTree = "<group>"; };
+		D1F20AED1A32AA1700A0C2D3 /* BillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BillViewController.m; path = ../BillViewController.m; sourceTree = "<group>"; };
+		D1F20AEF1A32AACF00A0C2D3 /* RepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepDetailViewController.h; sourceTree = "<group>"; };
+		D1F20AF01A32AACF00A0C2D3 /* RepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepDetailViewController.m; sourceTree = "<group>"; };
+		D1F20AF21A32AC9F00A0C2D3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D1F20AF41A32ACAE00A0C2D3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D1F20AF61A32ACBD00A0C2D3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F022C4109CB4EA835C93C9CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F20AF71A32ACBD00A0C2D3 /* MessageUI.framework in Frameworks */,
+				D1F20AF51A32ACAE00A0C2D3 /* Security.framework in Frameworks */,
+				D1F20AF31A32AC9F00A0C2D3 /* SystemConfiguration.framework in Frameworks */,
+				E874F88183AC28E123E55590 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +103,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22BF6E3FD5F887FDB3214C1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66899E4D12B048687306CBA4 /* Pods.debug.xcconfig */,
+				00A477B9A55DC0470E290840 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D107A1161A2FF98600472F9A /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1F20AEC1A32AA1700A0C2D3 /* BillViewController.h */,
+				D1F20AED1A32AA1700A0C2D3 /* BillViewController.m */,
+				D10FEE1F1A1E9425008F75FF /* MasterViewController.h */,
+				D10FEE201A1E9425008F75FF /* MasterViewController.m */,
+				D107A1101A2FF7F700472F9A /* HomeTabViewController.h */,
+				D107A1111A2FF7F700472F9A /* HomeTabViewController.m */,
+				D10FEE221A1E9425008F75FF /* DetailViewController.h */,
+				D10FEE231A1E9425008F75FF /* DetailViewController.m */,
+				D10FEE431A1E9C7C008F75FF /* FirstView.h */,
+				D10FEE441A1E9C7C008F75FF /* FirstView.m */,
+				D107A0D71A2FEB6000472F9A /* RepViewController.h */,
+				D107A0D81A2FEB6000472F9A /* RepViewController.m */,
+				D1F20AEF1A32AACF00A0C2D3 /* RepDetailViewController.h */,
+				D1F20AF01A32AACF00A0C2D3 /* RepDetailViewController.m */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
 		D10FEE0C1A1E9424008F75FF = {
 			isa = PBXGroup;
 			children = (
+				D1F20AF81A32ACCE00A0C2D3 /* Frameworks */,
 				D10FEE171A1E9425008F75FF /* iCongress */,
 				D10FEE341A1E9425008F75FF /* iCongressTests */,
 				D10FEE161A1E9425008F75FF /* Products */,
+				22BF6E3FD5F887FDB3214C1B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,16 +158,17 @@
 			children = (
 				D10FEE1C1A1E9425008F75FF /* AppDelegate.h */,
 				D10FEE1D1A1E9425008F75FF /* AppDelegate.m */,
-				D10FEE1F1A1E9425008F75FF /* MasterViewController.h */,
-				D10FEE201A1E9425008F75FF /* MasterViewController.m */,
-				D10FEE221A1E9425008F75FF /* DetailViewController.h */,
-				D10FEE231A1E9425008F75FF /* DetailViewController.m */,
-				D10FEE431A1E9C7C008F75FF /* FirstView.h */,
-				D10FEE441A1E9C7C008F75FF /* FirstView.m */,
+				D1F20A091A32446300A0C2D3 /* ASSETS */,
+				D107A1161A2FF98600472F9A /* view controllers */,
+				D107A1131A2FF95200472F9A /* BillCell.h */,
+				D107A1141A2FF95200472F9A /* BillCell.m */,
 				D10FEE251A1E9425008F75FF /* Main.storyboard */,
+				D107A10F1A2FF5FA00472F9A /* constants.h */,
 				D10FEE281A1E9425008F75FF /* Images.xcassets */,
 				D10FEE2A1A1E9425008F75FF /* LaunchScreen.xib */,
 				D10FEE181A1E9425008F75FF /* Supporting Files */,
+				D1B6C83D1A33B4990059D515 /* MySHKConfigurator.h */,
+				D1B6C83E1A33B49A0059D515 /* MySHKConfigurator.m */,
 			);
 			path = iCongress;
 			sourceTree = "<group>";
@@ -129,6 +199,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D1F20A091A32446300A0C2D3 /* ASSETS */ = {
+			isa = PBXGroup;
+			children = (
+				D1EBE0D91A31669700F38229 /* frank-underwood.jpg */,
+				D1F20A0A1A3264DD00A0C2D3 /* capitol.jpg */,
+			);
+			name = ASSETS;
+			sourceTree = "<group>";
+		};
+		D1F20AF81A32ACCE00A0C2D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1F20AF61A32ACBD00A0C2D3 /* MessageUI.framework */,
+				D1F20AF41A32ACAE00A0C2D3 /* Security.framework */,
+				D1F20AF21A32AC9F00A0C2D3 /* SystemConfiguration.framework */,
+				F022C4109CB4EA835C93C9CC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D10FEE3B1A1E9425008F75FF /* Build configuration list for PBXNativeTarget "iCongress" */;
 			buildPhases = (
+				B756AE8972CFE8F56A7E583B /* Check Pods Manifest.lock */,
 				D10FEE111A1E9425008F75FF /* Sources */,
 				D10FEE121A1E9425008F75FF /* Frameworks */,
 				D10FEE131A1E9425008F75FF /* Resources */,
+				798598FF0BEDF26974FFB873 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +284,27 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				ar,
+				ca,
+				cs,
+				es,
+				eu,
+				fi,
+				fr,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				pt,
+				ru,
+				sk,
+				sv,
+				vi,
+				zh_CN,
+				zh_TW,
 			);
 			mainGroup = D10FEE0C1A1E9424008F75FF;
 			productRefGroup = D10FEE161A1E9425008F75FF /* Products */;
@@ -209,6 +322,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F20A0B1A3264DD00A0C2D3 /* capitol.jpg in Resources */,
+				D1EBE0DA1A31669700F38229 /* frank-underwood.jpg in Resources */,
 				D10FEE271A1E9425008F75FF /* Main.storyboard in Resources */,
 				D10FEE2C1A1E9425008F75FF /* LaunchScreen.xib in Resources */,
 				D10FEE291A1E9425008F75FF /* Images.xcassets in Resources */,
@@ -224,14 +339,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		798598FF0BEDF26974FFB873 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B756AE8972CFE8F56A7E583B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D10FEE111A1E9425008F75FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D107A1151A2FF95200472F9A /* BillCell.m in Sources */,
+				D107A0D91A2FEB6000472F9A /* RepViewController.m in Sources */,
 				D10FEE1E1A1E9425008F75FF /* AppDelegate.m in Sources */,
 				D10FEE211A1E9425008F75FF /* MasterViewController.m in Sources */,
+				D107A1121A2FF7F700472F9A /* HomeTabViewController.m in Sources */,
+				D1F20AF11A32AACF00A0C2D3 /* RepDetailViewController.m in Sources */,
+				D1B6C83F1A33B49A0059D515 /* MySHKConfigurator.m in Sources */,
 				D10FEE451A1E9C7C008F75FF /* FirstView.m in Sources */,
+				D1F20AEE1A32AA1700A0C2D3 /* BillViewController.m in Sources */,
 				D10FEE1B1A1E9425008F75FF /* main.m in Sources */,
 				D10FEE241A1E9425008F75FF /* DetailViewController.m in Sources */,
 			);
@@ -353,6 +507,7 @@
 		};
 		D10FEE3C1A1E9425008F75FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66899E4D12B048687306CBA4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iCongress/Info.plist;
@@ -363,6 +518,7 @@
 		};
 		D10FEE3D1A1E9425008F75FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00A477B9A55DC0470E290840 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iCongress/Info.plist;
@@ -424,6 +580,7 @@
 				D10FEE3D1A1E9425008F75FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D10FEE3E1A1E9425008F75FF /* Build configuration list for PBXNativeTarget "iCongressTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +589,7 @@
 				D10FEE401A1E9425008F75FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
